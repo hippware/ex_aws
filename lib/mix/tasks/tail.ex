@@ -20,8 +20,7 @@ defmodule Mix.Tasks.Kinesis.Tail do
   """
 
   @dialyzer {:no_return,
-           run: 1,
-           get_shards: 1
+           run: 1
           }
   # @dialyzer {:no_behaviours, post_object_restore: 4}
 
